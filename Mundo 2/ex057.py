@@ -1,11 +1,12 @@
-#  LEITOR DE SEXO ACEITANDO APENAS M OU F.
+ #  LEITOR DE SEXO ACEITANDO APENAS M OU F.
 
-s = str(input('Digite seu sexo [M/F]: ').strip().lower()[0])
 
-while s not in 'mf':
-    s = str(input('\nOpção inválida!\nDigite uma opção válida: '))
+user_choice = str(input('Digite seu sexo [M/F]: ').upper().strip()[0])
 
-if s == 'm':
+while user_choice not in 'MF':  # Para evitar que o usuário digite uma opção inexistente.
+    user_choice = str(input('\nOpção inválida!\nDigita uma opção válida [M/F]: ').strip().upper()[0])
+
+if user_choice == 'M':
     print('Sexo masculino registrado!')
-elif s == 'f':
+elif user_choice == 'F':
     print('Sexo feminino registrado!')
