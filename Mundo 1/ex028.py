@@ -20,7 +20,7 @@ if nome == 'Julia':
                         use_aliases=True)
           )
 
-    playsound.playsound('love.mp3')
+    playsound.playsound('bruno-mars.mp3')
 
     sleep(0.5)
 
@@ -28,7 +28,7 @@ print(f'Olá {nome}, Seja bem vindo ao jogo de adivinhação!')
 
 sleep(0.5)
 
-num = int(input('Tente adivinhar qual número entre 0 e 5 eu estou pensando: '))
+num = int(input('Tente adivinhar qual número entre 0 e 5 que eu estou pensando: '))
 
 print('Huuummmm.....')
 
