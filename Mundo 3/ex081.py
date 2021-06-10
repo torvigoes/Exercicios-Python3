@@ -11,7 +11,4 @@ values = sorted(values, reverse=True)  # Inverte a ordem da lista
 print(f"\nForam digitados {count} números.\n"
       f"Decrescente: {values}")
 
-if 5 in values:
-    print("O valor 5 está na lista.")
-else:
-    print("O valor 5 não está na lista.")
+print(f'O valor 5{" " if  5 in values else " não"}está na lista')  # printa um espaço caso 5 esteja na lista, se não 'não'

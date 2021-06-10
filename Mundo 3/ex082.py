@@ -15,5 +15,6 @@ while resp == 'S':
     else:
         imp.append(val)
 
-print(f"\nNúmeros pares: {pairs}\n"
+print(f"\nNúmeros: {values}"
+      f"\nNúmeros pares: {pairs}\n"
       f"Números ímpares: {imp}")
